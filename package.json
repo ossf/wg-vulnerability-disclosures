@@ -1,0 +1,22 @@
+{
+  "name": "wg-vulnerability-disclosures",
+  "version": "1.0.0",
+  "description": "OpenSSF Repository for the Vulnerability Disclosures WG",
+  "scripts": {
+    "format": "npx prettier --write . && npx markdownlint --fix '**/*.md' --ignore node_modules --config .github/linters/.markdown-lint.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ossf/wg-vulnerability-disclosures.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ossf/wg-vulnerability-disclosures/issues"
+  },
+  "homepage": "https://github.com/ossf/wg-vulnerability-disclosures#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.32.2",
+    "prettier": "^2.7.1"
+  }
+}
